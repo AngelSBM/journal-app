@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="d-flex">
+    <div class="d-flex" v-else>
         <div class="col-4">
             <EntryList />
         </div>
