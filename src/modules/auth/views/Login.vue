@@ -41,7 +41,6 @@ export default {
         const router = useRouter();
 
         const { loginUser } = useAuth();
-
         const credentials = ref({
             email: '',
             password: ''

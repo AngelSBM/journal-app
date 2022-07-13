@@ -23,3 +23,8 @@ export const addEntry = ( state, newEntry ) => {
 export const deleteEntry = (state, deletedEntry) => {
     state.entries = state.entries.filter(entry => entry.id !== deletedEntry );
 }
+
+
+export const purgeEntries = (state) => {
+    state.entries = []
+}
